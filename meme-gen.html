@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="meme-gen.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>MemeGen</h1>
+        </div>
+        <form>
+            <div class="container">
+                <div class="inputs">
+                    <input class="input-fields" id="top" type="text" placeholder="Enter top text" maxlength="50" required>
+                </div>
+                <div class="inputs">
+                    <input class="input-fields" id="bottom" type="text" placeholder="Enter bottom text" maxlength="90" required>
+                </div>
+                <div class="inputs">
+                    <input class="input-fields" id="url" type="text" placeholder="Enter image URL" required>
+                </div>
+            </div><!--container-->
+            <input id="submit-button" class="button" type="submit" value="Submit" >
+        </form>
+    </div><!-- header-->
+    <div class="card-container"></div>
+    
+    <script src="meme-gen.js"></script>
+</body>
+</html>
